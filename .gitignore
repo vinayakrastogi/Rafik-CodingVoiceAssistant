@@ -1,0 +1,16 @@
+# Mac OS junk
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Ignore node modules anywhere
+node_modules/
+dist/
+
+# Ignore the model folder ANYWHERE in the project
+**/intent_router_model/*
+
+# Keep the .gitkeep file so the folder structure stays
+!**/intent_router_model/.gitkeep

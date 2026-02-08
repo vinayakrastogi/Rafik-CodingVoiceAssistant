@@ -1,0 +1,405 @@
+{
+    "MOVE_CURSOR":[
+    {
+        "text": "Move cursor down 5 lines",
+        "dsl": "MOVE_CURSOR(line, 5, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move the cursor up 3 lines",
+        "dsl": "MOVE_CURSOR(line, 3, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move cursor left 2 characters",
+        "dsl": "MOVE_CURSOR(char, 2, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move cursor right 10 characters",
+        "dsl": "MOVE_CURSOR(char, 10, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Go down 5",
+        "dsl": "MOVE_CURSOR(line, 5, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Up 3",
+        "dsl": "MOVE_CURSOR(line, 3, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Left by 2",
+        "dsl": "MOVE_CURSOR(char, 2, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Right 10",
+        "dsl": "MOVE_CURSOR(char, 10, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move to the next word",
+        "dsl": "MOVE_CURSOR(word, 1, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move to the previous word",
+        "dsl": "MOVE_CURSOR(word, 1, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Go forward 3 words",
+        "dsl": "MOVE_CURSOR(word, 3, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Go back 1 word",
+        "dsl": "MOVE_CURSOR(word, 1, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move to the next block",
+        "dsl": "MOVE_CURSOR(block, 1, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move to the previous block",
+        "dsl": "MOVE_CURSOR(block, 1, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Go down 2 blocks",
+        "dsl": "MOVE_CURSOR(block, 2, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Go up 3 blocks",
+        "dsl": "MOVE_CURSOR(block, 3, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Jump to the next word",
+        "dsl": "MOVE_CURSOR(word, 1, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Jump to the previous word",
+        "dsl": "MOVE_CURSOR(word, 1, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move down 2 lines",
+        "dsl": "MOVE_CURSOR(line, 2, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Go up 3 lines",
+        "dsl": "MOVE_CURSOR(line, 3, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move forward 1 word",
+        "dsl": "MOVE_CURSOR(word, 1, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move back 1 word",
+        "dsl": "MOVE_CURSOR(word, 1, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move down 10 lines",
+        "dsl": "MOVE_CURSOR(line, 10, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move up 4 lines",
+        "dsl": "MOVE_CURSOR(line, 4, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move right 3 characters",
+        "dsl": "MOVE_CURSOR(char, 3, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move left 1 character",
+        "dsl": "MOVE_CURSOR(char, 1, left)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move to the next paragraph block",
+        "dsl": "MOVE_CURSOR(block, 1, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move back to the previous paragraph block",
+        "dsl": "MOVE_CURSOR(block, 1, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Take the cursor down 8 lines",
+        "dsl": "MOVE_CURSOR(line, 8, down)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Bring the cursor up 5 lines",
+        "dsl": "MOVE_CURSOR(line, 5, up)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move forward word by word 3 times",
+        "dsl": "MOVE_CURSOR(word, 3, right)",
+        "label": "MOVE_CURSOR"
+    },
+    {
+        "text": "Move backward word by word 2 times",
+        "dsl": "MOVE_CURSOR(word, 2, left)",
+        "label": "MOVE_CURSOR"
+    }
+],
+
+
+
+
+
+    "JUMP_TO_LINE": [
+        {"text": "Jump to line 10", "dsl": "JUMP_TO_LINE(10)", "label": "JUMP_TO_LINE"},
+        {"text": "Go to line 25", "dsl": "JUMP_TO_LINE(25)", "label": "JUMP_TO_LINE"},
+        {"text": "Move to line 100", "dsl": "JUMP_TO_LINE(100)", "label": "JUMP_TO_LINE"},
+        {"text": "Navigate to line 7", "dsl": "JUMP_TO_LINE(7)", "label": "JUMP_TO_LINE"},
+        {"text": "Take me to line 42", "dsl": "JUMP_TO_LINE(42)", "label": "JUMP_TO_LINE"},
+        {"text": "Jump straight to line 60", "dsl": "JUMP_TO_LINE(60)", "label": "JUMP_TO_LINE"},
+        {"text": "Scroll to line 15", "dsl": "JUMP_TO_LINE(15)", "label": "JUMP_TO_LINE"},
+        {"text": "Open line 88", "dsl": "JUMP_TO_LINE(88)", "label": "JUMP_TO_LINE"},
+        {"text": "Switch to line 3", "dsl": "JUMP_TO_LINE(3)", "label": "JUMP_TO_LINE"},
+        {"text": "Focus on line 9", "dsl": "JUMP_TO_LINE(9)", "label": "JUMP_TO_LINE"},
+        {"text": "Line 20", "dsl": "JUMP_TO_LINE(20)", "label": "JUMP_TO_LINE"},
+        {"text": "Goto line 31", "dsl": "JUMP_TO_LINE(31)", "label": "JUMP_TO_LINE"},
+        {"text": "Line number 55", "dsl": "JUMP_TO_LINE(55)", "label": "JUMP_TO_LINE"},
+        {"text": "Jump line 77", "dsl": "JUMP_TO_LINE(77)", "label": "JUMP_TO_LINE"},
+        {"text": "Move cursor to line 18", "dsl": "JUMP_TO_LINE(18)", "label": "JUMP_TO_LINE"},
+        {"text": "Bring me to line 5", "dsl": "JUMP_TO_LINE(5)", "label": "JUMP_TO_LINE"},
+        {"text": "Go directly to line 200", "dsl": "JUMP_TO_LINE(200)", "label": "JUMP_TO_LINE"},
+        {"text": "Jump all the way to line 150", "dsl": "JUMP_TO_LINE(150)", "label": "JUMP_TO_LINE"},
+        {"text": "Skip to line 95", "dsl": "JUMP_TO_LINE(95)", "label": "JUMP_TO_LINE"},
+        {"text": "Please jump to line 80", "dsl": "JUMP_TO_LINE(80)", "label": "JUMP_TO_LINE"},
+        {"text": "Can you go to line 13", "dsl": "JUMP_TO_LINE(13)", "label": "JUMP_TO_LINE"},
+        {"text": "Could you move to line 21", "dsl": "JUMP_TO_LINE(21)", "label": "JUMP_TO_LINE"},
+        {"text": "Would you jump to line 99", "dsl": "JUMP_TO_LINE(99)", "label": "JUMP_TO_LINE"},
+        {"text": "Kindly navigate to line 36", "dsl": "JUMP_TO_LINE(36)", "label": "JUMP_TO_LINE"},
+        {"text": "Jump me to line 64", "dsl": "JUMP_TO_LINE(64)", "label": "JUMP_TO_LINE"},
+        {"text": "Send cursor to line 17", "dsl": "JUMP_TO_LINE(17)", "label": "JUMP_TO_LINE"},
+        {"text": "Place cursor at line 26", "dsl": "JUMP_TO_LINE(26)", "label": "JUMP_TO_LINE"},
+        {"text": "Position cursor on line 58", "dsl": "JUMP_TO_LINE(58)", "label": "JUMP_TO_LINE"},
+        {"text": "Center on line 73", "dsl": "JUMP_TO_LINE(73)", "label": "JUMP_TO_LINE"},
+        {"text": "Go to the top line 1", "dsl": "JUMP_TO_LINE(1)", "label": "JUMP_TO_LINE"},
+        {"text": "Jump to the last line 300", "dsl": "JUMP_TO_LINE(300)", "label": "JUMP_TO_LINE"},
+        {"text": "Move to starting line 1", "dsl": "JUMP_TO_LINE(1)", "label": "JUMP_TO_LINE"},
+        {"text": "Jump near the end line 250", "dsl": "JUMP_TO_LINE(250)", "label": "JUMP_TO_LINE"},
+        {"text": "Review line 68", "dsl": "JUMP_TO_LINE(68)", "label": "JUMP_TO_LINE"},
+        {"text": "Inspect line 41", "dsl": "JUMP_TO_LINE(41)", "label": "JUMP_TO_LINE"},
+        {"text": "Debug line 56", "dsl": "JUMP_TO_LINE(56)", "label": "JUMP_TO_LINE"},
+        {"text": "Check line 90", "dsl": "JUMP_TO_LINE(90)", "label": "JUMP_TO_LINE"},
+        {"text": "See line 34", "dsl": "JUMP_TO_LINE(34)", "label": "JUMP_TO_LINE"}
+    ],
+    "JUMP_TO_COLUMN": [
+        {"text": "Jump to column 10", "dsl": "JUMP_TO_COLUMN(10)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Go to column 25", "dsl": "JUMP_TO_COLUMN(25)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Move to column 50", "dsl": "JUMP_TO_COLUMN(50)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Navigate to column 5", "dsl": "JUMP_TO_COLUMN(5)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Take me to column 80", "dsl": "JUMP_TO_COLUMN(80)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump straight to column 20", "dsl": "JUMP_TO_COLUMN(20)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Position at column 15", "dsl": "JUMP_TO_COLUMN(15)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Place cursor at column 40", "dsl": "JUMP_TO_COLUMN(40)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Switch to column 30", "dsl": "JUMP_TO_COLUMN(30)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Focus on column 12", "dsl": "JUMP_TO_COLUMN(12)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Column 35", "dsl": "JUMP_TO_COLUMN(35)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Go 60", "dsl": "JUMP_TO_COLUMN(60)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump 45", "dsl": "JUMP_TO_COLUMN(45)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Take me to 8", "dsl": "JUMP_TO_COLUMN(8)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Head to 70", "dsl": "JUMP_TO_COLUMN(70)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Goto column 22", "dsl": "JUMP_TO_COLUMN(22)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Column number 55", "dsl": "JUMP_TO_COLUMN(55)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump column 18", "dsl": "JUMP_TO_COLUMN(18)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Move cursor to column 28", "dsl": "JUMP_TO_COLUMN(28)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Bring me to column 3", "dsl": "JUMP_TO_COLUMN(3)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Go directly to column 100", "dsl": "JUMP_TO_COLUMN(100)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump all the way to column 75", "dsl": "JUMP_TO_COLUMN(75)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Skip to column 32", "dsl": "JUMP_TO_COLUMN(32)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Fast jump to column 65", "dsl": "JUMP_TO_COLUMN(65)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Please jump to column 67", "dsl": "JUMP_TO_COLUMN(67)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Can you go to column 13", "dsl": "JUMP_TO_COLUMN(13)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Could you move to column 21", "dsl": "JUMP_TO_COLUMN(21)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Would you jump to column 58", "dsl": "JUMP_TO_COLUMN(58)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Kindly navigate to column 36", "dsl": "JUMP_TO_COLUMN(36)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump me to column 64", "dsl": "JUMP_TO_COLUMN(64)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Send cursor to column 17", "dsl": "JUMP_TO_COLUMN(17)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Place cursor at column 26", "dsl": "JUMP_TO_COLUMN(26)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Position cursor on column 72", "dsl": "JUMP_TO_COLUMN(72)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Center on column 46", "dsl": "JUMP_TO_COLUMN(46)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Go to the first column 1", "dsl": "JUMP_TO_COLUMN(1)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump to the last column 120", "dsl": "JUMP_TO_COLUMN(120)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Move to starting column 1", "dsl": "JUMP_TO_COLUMN(1)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Jump near the end column 110", "dsl": "JUMP_TO_COLUMN(110)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Align to column 24", "dsl": "JUMP_TO_COLUMN(24)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Review column 68", "dsl": "JUMP_TO_COLUMN(68)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Inspect column 41", "dsl": "JUMP_TO_COLUMN(41)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Debug column 53", "dsl": "JUMP_TO_COLUMN(53)", "label": "JUMP_TO_COLUMN"},
+        {"text": "Check column 37", "dsl": "JUMP_TO_COLUMN(37)", "label": "JUMP_TO_COLUMN"},
+        {"text": "See column 19", "dsl": "JUMP_TO_COLUMN(19)", "label": "JUMP_TO_COLUMN"}
+    ],
+    "JUMP_TO_DEFINITION": [
+        {"text": "Jump to definition of calculateTotal", "dsl": "JUMP_TO_DEFINITION(calculateTotal)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Go to definition of getUserData", "dsl": "JUMP_TO_DEFINITION(getUserData)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Move to definition of processRequest", "dsl": "JUMP_TO_DEFINITION(processRequest)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Navigate to definition of validateInput", "dsl": "JUMP_TO_DEFINITION(validateInput)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Take me to definition of renderComponent", "dsl": "JUMP_TO_DEFINITION(renderComponent)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump straight to definition of handleClick", "dsl": "JUMP_TO_DEFINITION(handleClick)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Go to the definition of fetchData", "dsl": "JUMP_TO_DEFINITION(fetchData)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Open definition of submitForm", "dsl": "JUMP_TO_DEFINITION(submitForm)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Switch to definition of parseJSON", "dsl": "JUMP_TO_DEFINITION(parseJSON)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Focus on definition of formatDate", "dsl": "JUMP_TO_DEFINITION(formatDate)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Definition of User", "dsl": "JUMP_TO_DEFINITION(User)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Go Product", "dsl": "JUMP_TO_DEFINITION(Product)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump Order", "dsl": "JUMP_TO_DEFINITION(Order)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Take me to Config", "dsl": "JUMP_TO_DEFINITION(Config)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Head to Settings", "dsl": "JUMP_TO_DEFINITION(Settings)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Goto definition of ApiClient", "dsl": "JUMP_TO_DEFINITION(ApiClient)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Definition number of Database", "dsl": "JUMP_TO_DEFINITION(Database)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump definition of Logger", "dsl": "JUMP_TO_DEFINITION(Logger)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Move cursor to definition of Router", "dsl": "JUMP_TO_DEFINITION(Router)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Bring me to definition of Service", "dsl": "JUMP_TO_DEFINITION(Service)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Go directly to definition of authenticate", "dsl": "JUMP_TO_DEFINITION(authenticate)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump all the way to definition of authorize", "dsl": "JUMP_TO_DEFINITION(authorize)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Skip to definition of encrypt", "dsl": "JUMP_TO_DEFINITION(encrypt)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Fast jump to definition of decrypt", "dsl": "JUMP_TO_DEFINITION(decrypt)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Please jump to definition of updateUser", "dsl": "JUMP_TO_DEFINITION(updateUser)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Can you go to definition of deleteUser", "dsl": "JUMP_TO_DEFINITION(deleteUser)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Could you move to definition of findUser", "dsl": "JUMP_TO_DEFINITION(findUser)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Would you jump to definition of listUsers", "dsl": "JUMP_TO_DEFINITION(listUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Kindly navigate to definition of searchUsers", "dsl": "JUMP_TO_DEFINITION(searchUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump me to definition of filterUsers", "dsl": "JUMP_TO_DEFINITION(filterUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Send cursor to definition of sortUsers", "dsl": "JUMP_TO_DEFINITION(sortUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Place cursor at definition of paginateUsers", "dsl": "JUMP_TO_DEFINITION(paginateUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Position cursor on definition of exportUsers", "dsl": "JUMP_TO_DEFINITION(exportUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Center on definition of importUsers", "dsl": "JUMP_TO_DEFINITION(importUsers)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Go to the first definition of initializeApp", "dsl": "JUMP_TO_DEFINITION(initializeApp)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump to the last definition of shutdownApp", "dsl": "JUMP_TO_DEFINITION(shutdownApp)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Move to starting definition of startServer", "dsl": "JUMP_TO_DEFINITION(startServer)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Jump near the end definition of stopServer", "dsl": "JUMP_TO_DEFINITION(stopServer)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Open code at definition of restartServer", "dsl": "JUMP_TO_DEFINITION(restartServer)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Review definition of checkHealth", "dsl": "JUMP_TO_DEFINITION(checkHealth)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Inspect definition of getStatus", "dsl": "JUMP_TO_DEFINITION(getStatus)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Debug definition of logError", "dsl": "JUMP_TO_DEFINITION(logError)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "Check definition of logInfo", "dsl": "JUMP_TO_DEFINITION(logInfo)", "label": "JUMP_TO_DEFINITION"},
+        {"text": "See definition of logWarning", "dsl": "JUMP_TO_DEFINITION(logWarning)", "label": "JUMP_TO_DEFINITION"}
+    ],
+    "JUMP_TO_SCOPE": [
+        {"text": "Jump to next function", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Go to previous function", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Move to next class", "dsl": "JUMP_TO_SCOPE(class,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Navigate to previous class", "dsl": "JUMP_TO_SCOPE(class,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Take me to next bracket", "dsl": "JUMP_TO_SCOPE(bracket,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Jump straight to previous bracket", "dsl": "JUMP_TO_SCOPE(bracket,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Go to the next function scope", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Open previous function scope", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Switch to next class scope", "dsl": "JUMP_TO_SCOPE(class,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Focus on previous class scope", "dsl": "JUMP_TO_SCOPE(class,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Next function", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Previous function", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Next class", "dsl": "JUMP_TO_SCOPE(class,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Previous class", "dsl": "JUMP_TO_SCOPE(class,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Next bracket", "dsl": "JUMP_TO_SCOPE(bracket,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Previous bracket", "dsl": "JUMP_TO_SCOPE(bracket,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Goto next function scope", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Move cursor to previous class scope", "dsl": "JUMP_TO_SCOPE(class,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Bring me to next bracket scope", "dsl": "JUMP_TO_SCOPE(bracket,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Go directly to previous bracket scope", "dsl": "JUMP_TO_SCOPE(bracket,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Jump all the way to next function", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Skip to previous function", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Fast jump to next class", "dsl": "JUMP_TO_SCOPE(class,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Please jump to previous function", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Can you go to next class", "dsl": "JUMP_TO_SCOPE(class,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Could you move to previous class", "dsl": "JUMP_TO_SCOPE(class,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Would you jump to next bracket", "dsl": "JUMP_TO_SCOPE(bracket,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Kindly navigate to previous bracket", "dsl": "JUMP_TO_SCOPE(bracket,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Jump me to next function", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Send cursor to previous function", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Place cursor at next class", "dsl": "JUMP_TO_SCOPE(class,down)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Position cursor on previous class", "dsl": "JUMP_TO_SCOPE(class,up)", "label": "JUMP_TO_SCOPE"},
+        {"text": "Center on next bracket", "dsl": "JUMP_TO_SCOPE(bracket,down)", "label": "JUMP_TO_SCOPE"}
+    ],
+
+    "GO_BACK": [
+        {"text": "Go back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Jump back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Move back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Navigate back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Take me back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Jump straight back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Go to the back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Open back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Switch to back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Focus on back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Go back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Jump back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Take me back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Head to back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Goto back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Please jump back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Can you go back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Could you move back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Would you jump back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Kindly navigate back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Jump me back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Send cursor back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Place cursor back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Position cursor back", "dsl": "GO_BACK()", "label": "GO_BACK"},
+        {"text": "Center back", "dsl": "GO_BACK()", "label": "GO_BACK"}
+    ],
+
+    "SCROLL": [
+        {"text": "Scroll down 5 lines", "dsl": "SCROLL(down,5)", "label": "SCROLL"},
+        {"text": "Scroll up 3 lines", "dsl": "SCROLL(up,3)", "label": "SCROLL"},
+        {"text": "Scroll down 10", "dsl": "SCROLL(down,10)", "label": "SCROLL"},
+        {"text": "Scroll up 7", "dsl": "SCROLL(up,7)", "label": "SCROLL"},
+        {"text": "Move scroll down 2", "dsl": "SCROLL(down,2)", "label": "SCROLL"},
+        {"text": "Move scroll up 4", "dsl": "SCROLL(up,4)", "label": "SCROLL"},
+        {"text": "Navigate scroll down 8", "dsl": "SCROLL(down,8)", "label": "SCROLL"},
+        {"text": "Navigate scroll up 6", "dsl": "SCROLL(up,6)", "label": "SCROLL"},
+        {"text": "Take me scroll down 1", "dsl": "SCROLL(down,1)", "label": "SCROLL"},
+        {"text": "Jump straight scroll up 9", "dsl": "SCROLL(up,9)", "label": "SCROLL"},
+        {"text": "Go to the scroll down 12", "dsl": "SCROLL(down,12)", "label": "SCROLL"},
+        {"text": "Open scroll up 15", "dsl": "SCROLL(up,15)", "label": "SCROLL"},
+        {"text": "Switch to scroll down 20", "dsl": "SCROLL(down,20)", "label": "SCROLL"},
+        {"text": "Focus on scroll up 25", "dsl": "SCROLL(up,25)", "label": "SCROLL"},
+        {"text": "Scroll down", "dsl": "SCROLL(down,1)", "label": "SCROLL"},
+        {"text": "Scroll up", "dsl": "SCROLL(up,1)", "label": "SCROLL"},
+        {"text": "Go scroll down", "dsl": "SCROLL(down,1)", "label": "SCROLL"},
+        {"text": "Jump scroll up", "dsl": "SCROLL(up,1)", "label": "SCROLL"},
+        {"text": "Take me scroll down", "dsl": "SCROLL(down,1)", "label": "SCROLL"},
+        {"text": "Head to scroll up", "dsl": "SCROLL(up,1)", "label": "SCROLL"},
+        {"text": "Goto scroll down 30", "dsl": "SCROLL(down,30)", "label": "SCROLL"},
+        {"text": "Move cursor scroll up 35", "dsl": "SCROLL(up,35)", "label": "SCROLL"},
+        {"text": "Bring me scroll down 40", "dsl": "SCROLL(down,40)", "label": "SCROLL"},
+        {"text": "Go directly scroll up 45", "dsl": "SCROLL(up,45)", "label": "SCROLL"},
+        {"text": "Jump all the way scroll down 50", "dsl": "SCROLL(down,50)", "label": "SCROLL"},
+        {"text": "Skip scroll up 55", "dsl": "SCROLL(up,55)", "label": "SCROLL"},
+        {"text": "Fast jump scroll down 60", "dsl": "SCROLL(down,60)", "label": "SCROLL"},
+        {"text": "Please jump scroll up 65", "dsl": "SCROLL(up,65)", "label": "SCROLL"},
+        {"text": "Can you go scroll down 70", "dsl": "SCROLL(down,70)", "label": "SCROLL"},
+        {"text": "Could you move scroll up 75", "dsl": "SCROLL(up,75)", "label": "SCROLL"},
+        {"text": "Would you jump scroll down 80", "dsl": "SCROLL(down,80)", "label": "SCROLL"},
+        {"text": "Kindly navigate scroll up 85", "dsl": "SCROLL(up,85)", "label": "SCROLL"},
+        {"text": "Jump me scroll down 90", "dsl": "SCROLL(down,90)", "label": "SCROLL"},
+        {"text": "Send cursor scroll up 95", "dsl": "SCROLL(up,95)", "label": "SCROLL"},
+        {"text": "Place cursor scroll down 100", "dsl": "SCROLL(down,100)", "label": "SCROLL"},
+        {"text": "Position cursor scroll up 105", "dsl": "SCROLL(up,105)", "label": "SCROLL"},
+        {"text": "Center scroll down 110", "dsl": "SCROLL(down,110)", "label": "SCROLL"}
+    ]
+}
