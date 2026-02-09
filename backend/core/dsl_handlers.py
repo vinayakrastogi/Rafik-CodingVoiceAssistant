@@ -25,17 +25,32 @@ def extract_direction(text, default="down"):
     if "right" in text: return "right"
     return default
 
-# --- YOUR HANDLERS (Just add @register_handler) ---
-
 @register_handler("MOVE_CURSOR")
 def handle_move(text):
     qty = extract_number(text, 1)
     direction = extract_direction(text, "down")
     
-    unit = "line"
-    if "word" in text: unit = "word"
-    elif "char" in text: unit = "char"
+    # 1. Set Default Unit based on Direction
+    # If moving sideways, default to 'char'. Otherwise default to 'line'.
+    if direction in ["left", "right"]:
+        unit = "char"
+    else:
+        unit = "line"
+
+    # 2. Check for Explicit Unit Overrides
+    if "word" in text: 
+        unit = "word"
+    # Check for "char", "character", or "characters"
+    elif any(x in text for x in ["char", "character", "characters"]): 
+        unit = "char"
     
+    # 3. Logical Correction (Optional but recommended)
+    # If user said "5 characters" but didn't say a direction, 'direction' defaults to 'down'.
+    # We should flip 'down' to 'right' so the cursor doesn't try to move lines.
+    if unit in ["char", "word"]:
+        if direction == "down": direction = "right"
+        if direction == "up": direction = "left"
+
     return f"MOVE_CURSOR({unit}, {qty}, {direction})"
 
 @register_handler("JUMP_TO_LINE")

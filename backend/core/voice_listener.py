@@ -15,7 +15,7 @@ class RealtimeTranscriber:
         
         # --- YOUR ORIGINAL PROMPT ---
         self.initial_prompt = (
-            "Python programming keywords: and, as, assert, async, await, break, class, continue, "
+            "Python programming keywords: and, character, characters,  as, assert, async, await, break, class, continue, "
             "def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, "
             "lambda, None, nonlocal, not, or, pass, raise, return, True, try, while, with, yield. "
             "Common programming terms: indent, indentation, statement, function, variable, method, "
@@ -35,7 +35,7 @@ class RealtimeTranscriber:
             "functools, operator, pickle, json, csv, os, sys, pathlib, datetime, time, random, "
             "math, statistics, re, string, threading, multiprocessing, asyncio, socket, http, "
             "urllib, html, xml, uuid, logging, argparse, shutil, tempfile, glob, fnmatch, hashlib, "
-            "secrets, io, queue, select, subprocess, concurrent, email, webbrowser, configparser."
+            "secrets, io, queue, select, subprocess, concurrent, word, email, webbrowser, configparser."
         )
         
         # --- YOUR ORIGINAL AUDIO PARAMETERS ---
