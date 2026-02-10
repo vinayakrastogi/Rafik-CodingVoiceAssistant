@@ -298,6 +298,7 @@
         {"text": "Check definition of logInfo", "dsl": "JUMP_TO_DEFINITION(logInfo)", "label": "JUMP_TO_DEFINITION"},
         {"text": "See definition of logWarning", "dsl": "JUMP_TO_DEFINITION(logWarning)", "label": "JUMP_TO_DEFINITION"}
     ],
+
     "JUMP_TO_SCOPE": [
         {"text": "Jump to next function", "dsl": "JUMP_TO_SCOPE(function,down)", "label": "JUMP_TO_SCOPE"},
         {"text": "Go to previous function", "dsl": "JUMP_TO_SCOPE(function,up)", "label": "JUMP_TO_SCOPE"},
