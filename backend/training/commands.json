@@ -206,6 +206,7 @@
         {"text": "Check line 90", "dsl": "JUMP_TO_LINE(90)", "label": "JUMP_TO_LINE"},
         {"text": "See line 34", "dsl": "JUMP_TO_LINE(34)", "label": "JUMP_TO_LINE"}
     ],
+    
     "JUMP_TO_COLUMN": [
         {"text": "Jump to column 10", "dsl": "JUMP_TO_COLUMN(10)", "label": "JUMP_TO_COLUMN"},
         {"text": "Go to column 25", "dsl": "JUMP_TO_COLUMN(25)", "label": "JUMP_TO_COLUMN"},
@@ -252,6 +253,7 @@
         {"text": "Check column 37", "dsl": "JUMP_TO_COLUMN(37)", "label": "JUMP_TO_COLUMN"},
         {"text": "See column 19", "dsl": "JUMP_TO_COLUMN(19)", "label": "JUMP_TO_COLUMN"}
     ],
+    
     "JUMP_TO_DEFINITION": [
         {"text": "Jump to definition of calculateTotal", "dsl": "JUMP_TO_DEFINITION(calculateTotal)", "label": "JUMP_TO_DEFINITION"},
         {"text": "Go to definition of getUserData", "dsl": "JUMP_TO_DEFINITION(getUserData)", "label": "JUMP_TO_DEFINITION"},
